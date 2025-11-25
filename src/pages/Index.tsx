@@ -239,7 +239,7 @@ export default function Index() {
                 <CardDescription className="text-primary-foreground/80">
                   Мы готовы выполнить производство по вашим чертежам и техническим заданиям
                 </CardDescription>
-              </CardContent>
+              </CardHeader>
               <CardContent>
                 <Button variant="secondary" size="lg" onClick={() => setActiveSection('contacts')}>
                   Отправить запрос
